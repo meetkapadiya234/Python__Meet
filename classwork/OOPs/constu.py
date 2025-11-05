@@ -2,8 +2,8 @@ class student:
     clg = "tops"
     def __init__(self):
         self.id = id 
-        self.name = name 
-        self.email = email
+        self.name = "name"
+        self.email = "email"
     
     def display(self):
         print(self.id,self.name,self.email,self.clg)
