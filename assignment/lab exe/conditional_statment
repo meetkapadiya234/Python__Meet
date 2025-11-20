@@ -1,0 +1,58 @@
+
+# Python program to check if a number is greater, less, or equal to another number
+
+num = int(input("Enter a number: "))
+check = int(input("Enter another number: "))
+
+if num > check:
+    print("Greater")
+else:
+    print("Less or Equal")
+
+
+#  Prime Number Program (Using if–else)
+
+num = int(input("Enter a number: "))
+
+if num <= 1:
+    print("Not Prime")
+else:
+    is_prime = True
+    for i in range(2, num):
+        if num % i == 0:
+            is_prime = False
+            break
+
+    if is_prime:
+        print("Prime")
+    else:
+        print("Not Prime")
+
+
+#  Python If-Else Grade Program"
+
+percentage = float(input("Enter your percentage: "))
+
+if percentage >= 90:
+    print("Grade: A")
+elif percentage >= 75:
+    print("Grade: B")
+elif percentage >= 60:
+    print("Grade: C")
+elif percentage >= 40:
+    print("Grade: D")
+else:
+    print("Grade: Fail")
+
+# Python Program to Check Blood Donation Eligibility (Nested if)
+
+age = int(input("Enter age: "))
+weight = int(input("Enter weight: "))
+
+if age >= 18:
+    if weight >= 50:
+        print("Eligible")
+    else:
+        print("Not Eligible")
+else:
+    print("Not Eligible")
