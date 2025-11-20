@@ -1,0 +1,20 @@
+# String Slicing Examples
+
+s = "Python"
+
+print(s[0:3])   # Pyt
+print(s[2:])    # thon
+print(s[:4])    # Pyth
+print(s[-2:])   # on
+
+#   String Manipulation Examples
+
+s = "hello world"
+
+print(s.upper())      # Convert to uppercase
+print(s.lower())      # Convert to lowercase
+print(s.title())      # Title case
+print(s.replace("world", "Python"))  # Replace a word
+print(s.split())      # Split into list
+print(len(s))         # Length of string
+

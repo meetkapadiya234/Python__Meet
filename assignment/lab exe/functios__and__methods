@@ -1,0 +1,35 @@
+#  Print "Hello" using a string
+print("Hello")
+
+#  Allocate a string to a variable and print it
+msg = "Hello World"
+print(msg)
+
+#  Print a string using triple quotes
+text = """This is a string using triple quotes."""
+print(text)
+
+#  Access the first character of a string using index
+s = "Python"
+print(s[0])
+
+#  Access the string from the second position onwards (slicing)
+s = "Python"
+print(s[1:])
+
+#  Access a string up to the fifth character
+s = "Python"
+print(s[:5])
+
+#  Print the substring between index 1 and 4
+s = "Python"
+print(s[1:4])
+
+#  Print a string from the last character
+s = "Python"
+print(s[-1])
+
+# Print every alternate character starting from index 1
+s = "Python"
+print(s[1::2])
+

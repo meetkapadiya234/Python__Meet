@@ -1,0 +1,19 @@
+# Simple Python Calculator
+
+def calc(a, b, op):
+    if op == '1': return a + b
+    if op == '2': return a - b
+    if op == '3': return a * b
+    if op == '4': return a / b if b != 0 else "Error: divide by zero"
+
+while True:
+    print("\n1.Add  2.Sub  3.Mul  4.Div  5.Exit")
+    ch = input("Choose: ")
+
+    if ch == '5':
+        break
+
+    a = float(input("Enter first number: "))
+    b = float(input("Enter second number: "))
+
+    print("Result:", calc(a, b, ch))

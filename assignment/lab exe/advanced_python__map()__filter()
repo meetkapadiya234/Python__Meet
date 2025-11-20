@@ -1,0 +1,27 @@
+#   Using `map()` with a lambda function to square numbers in a list  
+
+numbers = [1, 2, 3, 4, 5]
+
+squared = list(map(lambda x: x * 2, numbers))
+
+print(squared)
+
+# Using `filter()` with a lambda function to get even numbers from a list
+
+from functools import reduce
+
+numbers = [1, 2, 3, 4, 5]
+
+product = reduce(lambda x, y: x * y, numbers)
+
+print(product)
+
+#   Python Program Using filter() to Get Even Numbers       
+
+numbers = [1, 2, 3, 4, 5, 6]
+
+evens = list(filter(lambda x: x % 2 == 0, numbers))
+
+print(evens)
+
+
