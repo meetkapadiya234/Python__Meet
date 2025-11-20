@@ -4,3 +4,35 @@ List1 = ['apple', 'banana', 'mango']
 
 for fruit in List1:
     print(fruit)
+    
+# Python Program to Find Length of Each String
+
+List1 = ['apple', 'banana', 'mango']
+
+for item in List1:
+    print(item, "=", len(item))
+
+# Python Program to Find a String in a List
+
+List1 = ['apple', 'banana', 'mango']
+search = input("Enter a fruit to search: ")
+
+found = False
+
+for item in List1:
+    if item == search:
+        print("Found:", item)
+        found = True
+        break
+
+if not found:
+    print("Not Found")
+
+#  Python Program to Print Pattern Using Nested For Loop
+
+for i in range(1, 6):
+    for j in range(i):
+        print("*", end="")
+    print()
+
+
