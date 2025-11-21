@@ -1,0 +1,22 @@
+# Example of accessing values from a tuple in Python
+
+# Creating a tuple
+my_tuple = (10, 20, 30, 40, 50, 60, 70)
+
+# Accessing values from index 1 to 5 (end index exclusive)
+sub_tuple = my_tuple[1:6]
+
+# Displaying the result
+print("Values from index 1 to 5:", sub_tuple)
+
+# Example of accessing alternate values from a tuple in Python
+
+# Creating a tuple
+my_tuple = (10, 20, 30, 40, 50, 60, 70)
+
+# Accessing alternate values from index 1 to 5
+alternate_values = my_tuple[1:6:2]  # start=1, end=6 (exclusive), step=2
+
+# Displaying the result
+print("Alternate values between index 1 and 5:", alternate_values)
+

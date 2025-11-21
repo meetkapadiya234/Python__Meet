@@ -1,0 +1,19 @@
+# Creating a list with multiple data types
+my_list = [10, "Hello", 3.14, True, "Python", 42]
+
+# Displaying the list
+print("List with multiple data types:", my_list)
+
+
+# Accessing Elements of a List at Different Index Positions in Python
+
+# Creating a list
+my_list = [10, "Hello", 3.14, True, "Python", 42]
+
+# Accessing elements using positive index
+print("Element at index 0:", my_list[0])
+print("Element at index 2:", my_list[2])
+
+# Accessing elements using negative index
+print("Element at index -1 (last element):", my_list[-1])
+print("Element at index -3:", my_list[-3])

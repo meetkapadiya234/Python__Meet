@@ -1,0 +1,16 @@
+# Creating a tuple with multiple data types
+my_tuple = (10, "Hello", 3.14, True, "Python")
+
+# Displaying the tuple
+print("Tuple with multiple data types:", my_tuple)
+
+# # Creating two tuples
+tuple1 = (1, 2, 3)
+tuple2 = ("a", "b", "c")
+
+# Concatenating tuples
+concatenated_tuple = tuple1 + tuple2
+
+# Displaying the result
+print("Concatenated tuple:", concatenated_tuple)
+

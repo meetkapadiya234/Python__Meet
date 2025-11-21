@@ -1,0 +1,26 @@
+# Example of working with a list in Python
+
+# Creating a list
+my_list = [10, "Hello", 3.14, True, "Python"]
+
+# Iterating over the list
+for item in my_list:
+    print(item)
+
+# /// Sorting a List Using sort() and sorted()
+
+# Creating a list
+my_list = [50, 10, 30, 20, 40]
+
+# Sorting the list in-place using sort()
+my_list.sort()
+print("List after sort():", my_list)
+
+# Creating another list
+another_list = [5, 3, 8, 1, 7]
+
+# Sorting the list using sorted() (returns a new sorted list)
+sorted_list = sorted(another_list)
+print("Original list:", another_list)
+print("List after sorted():", sorted_list)
+
