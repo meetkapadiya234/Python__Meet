@@ -1,0 +1,29 @@
+# This script demonstrates how to update a list using insert() and append() methods in Python.
+
+# Creating an initial list
+my_list = [10, 20, 30]
+
+# Adding an element at the end using append()
+my_list.append(40)
+
+# Adding an element at a specific index using insert()
+my_list.insert(1, 15)  # Inserts 15 at index 1
+
+# Displaying the updated list
+print("Updated list:", my_list)
+
+# This script demonstrates how to remove elements from a list using pop() and remove() methods in Python. 
+
+# Creating a list
+my_list = [10, 20, 30, 40, 50]
+
+# Removing element by index using pop()
+popped_element = my_list.pop(2)  # Removes element at index 2 (30)
+print("Popped element:", popped_element)
+
+# Removing element by value using remove()
+my_list.remove(40)  # Removes the element with value 40
+
+# Displaying the updated list
+print("Updated list:", my_list)
+
